@@ -1,0 +1,15 @@
+.cabecalho{
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/cardapio/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    &__text{
+        color: aliceblue;
+        font-size:5rem;
+        width: 60%;
+        min-width: 400;
+    }
+}
