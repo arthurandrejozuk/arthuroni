@@ -16,6 +16,7 @@ export default function Filtro({filtro, setFiltro}: Props) {
         }
         return setFiltro(opcao.id);
     }
+    
   return (
      
     <div className={styles.filtros}>

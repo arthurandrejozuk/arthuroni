@@ -3,6 +3,7 @@ import styles from './main.module.scss';
 import { useState, } from 'react';
 import Filtro from 'componentes/Filtros';
 import Ordenador from 'componentes/Ordenador';
+import Itens from 'componentes/itens';
 
 
 
@@ -23,7 +24,7 @@ export default function Main() {
           <Filtro filtro={filtro} setFiltro={setFiltro}/>
           <Ordenador ordenador={ordenador} setOrdenador={setOrdenador} />
         </div>
-          
+          <Itens busca={busca} filtro={filtro} ordenador={ordenador}/>
     </section>
   )
 }

@@ -4,7 +4,7 @@ export default function Cabecalho() {
   return (
     <header className={styles.cabecalho}>
         <div className={styles.cabecalho__text}>
-            A casa do codigo e da massa
+            A casa do código e da massa
         </div>
     </header>
   )
